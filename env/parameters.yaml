@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:pantheremerald/adminUser:password
+  username: admin
+dashboardAuthID: vault:pantheremerald:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:pantheremerald:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pantheremerald/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pantheremerald/prow:hmacToken
